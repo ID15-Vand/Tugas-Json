@@ -12,4 +12,12 @@ class catur{
     function show($table){
         return $this->db->select($table);
     }
+
+    function insert($table, $data) {
+    return $this->db->insert($table, $data);
+    }
+
+
+    
+
 }
